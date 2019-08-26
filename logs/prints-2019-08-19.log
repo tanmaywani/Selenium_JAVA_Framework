@@ -1,0 +1,8 @@
+23:45:54.023 [main] INFO  resources.Base - Driver is initialized
+23:45:58.128 [main] INFO  resources.Base - Navigated to home page
+23:45:58.165 [main] INFO  resources.Base - Title is validated
+23:46:17.175 [main] INFO  resources.Base - Navigated to login page
+23:46:17.346 [main] INFO  resources.Base - Entered User name and password
+23:46:19.327 [main] INFO  resources.Base - Click on Submit Button
+23:46:39.706 [main] INFO  resources.Base - Navigated to login page
+23:46:39.817 [main] INFO  resources.Base - Entered User name and password

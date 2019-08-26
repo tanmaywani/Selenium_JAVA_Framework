@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="121964" started-at="2019-08-24T23:47:57Z" finished-at="2019-08-24T23:49:59Z">
+    <groups>
+    </groups>
+    <test name="Validating User Login" duration-ms="27234" started-at="2019-08-24T23:47:57Z" finished-at="2019-08-24T23:48:24Z">
+      <class name="frameWork.ValidateMenuTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:frameWork.ValidateMenuTest@4567f35d]" name="initialization" is-config="true" duration-ms="19438" started-at="2019-08-24T23:47:57Z" finished-at="2019-08-24T23:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="ValidateAppNavigationBar()[pri:0, instance:frameWork.ValidateMenuTest@4567f35d]" name="ValidateAppNavigationBar" duration-ms="156" started-at="2019-08-24T23:48:16Z" finished-at="2019-08-24T23:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppNavigationBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:frameWork.ValidateMenuTest@4567f35d]" name="teardown" is-config="true" duration-ms="6844" started-at="2019-08-24T23:48:17Z" finished-at="2019-08-24T23:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- frameWork.ValidateMenuTest -->
+    </test> <!-- Validating User Login -->
+    <test name="Validating Title in the page" duration-ms="24159" started-at="2019-08-24T23:48:24Z" finished-at="2019-08-24T23:48:48Z">
+      <class name="frameWork.ValidateTitle">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:frameWork.ValidateTitle@5c5eefef]" name="initialization" is-config="true" duration-ms="16548" started-at="2019-08-24T23:48:24Z" finished-at="2019-08-24T23:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="ValidateAppTitle()[pri:0, instance:frameWork.ValidateTitle@5c5eefef]" name="ValidateAppTitle" duration-ms="78" started-at="2019-08-24T23:48:41Z" finished-at="2019-08-24T23:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:frameWork.ValidateTitle@5c5eefef]" name="teardown" is-config="true" duration-ms="6956" started-at="2019-08-24T23:48:41Z" finished-at="2019-08-24T23:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- frameWork.ValidateTitle -->
+    </test> <!-- Validating Title in the page -->
+    <test name="App testing" duration-ms="70540" started-at="2019-08-24T23:48:48Z" finished-at="2019-08-24T23:49:59Z">
+      <class name="frameWork.HomePageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:frameWork.HomePageTest@35cabb2a]" name="initialization" is-config="true" duration-ms="13422" started-at="2019-08-24T23:48:48Z" finished-at="2019-08-24T23:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.HomePageTest@35cabb2a]" name="basePageNavigation" duration-ms="9888" started-at="2019-08-24T23:49:02Z" data-provider="getData" finished-at="2019-08-24T23:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwqwqw]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:frameWork.HomePageTest@35cabb2a]" name="teardown" is-config="true" duration-ms="12423" started-at="2019-08-24T23:49:12Z" finished-at="2019-08-24T23:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:frameWork.HomePageTest@35cabb2a]" name="initialization" is-config="true" duration-ms="13836" started-at="2019-08-24T23:49:24Z" finished-at="2019-08-24T23:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.HomePageTest@35cabb2a]" name="basePageNavigation" duration-ms="11513" started-at="2019-08-24T23:49:38Z" data-provider="getData" finished-at="2019-08-24T23:49:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwqwqww]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:frameWork.HomePageTest@35cabb2a]" name="teardown" is-config="true" duration-ms="9255" started-at="2019-08-24T23:49:50Z" finished-at="2019-08-24T23:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- frameWork.HomePageTest -->
+    </test> <!-- App testing -->
+  </suite> <!-- Suite -->
+</testng-results>

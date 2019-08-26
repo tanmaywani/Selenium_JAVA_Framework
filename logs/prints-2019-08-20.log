@@ -1,0 +1,8 @@
+02:19:26.473 [main] INFO  resources.Base - Click on Submit Button
+02:22:33.480 [main] INFO  resources.Base - Menu Bar is Validated
+02:22:48.282 [main] INFO  resources.Base - Driver is initialized
+02:22:54.151 [main] INFO  resources.Base - Navigated to home page
+02:23:22.787 [main] INFO  resources.Base - Navigated to login page
+02:23:23.007 [main] INFO  resources.Base - Entered User name and password
+02:23:25.565 [main] INFO  resources.Base - Click on Submit Button
+02:23:59.567 [main] INFO  resources.Base - Navigated to login page
